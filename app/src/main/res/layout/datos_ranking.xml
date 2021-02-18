@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewPuesto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Puesto"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textAlignment="center"></TextView>
+
+        <TextView
+            android:id="@+id/textViewNombre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nombre"
+            android:textAlignment="center"></TextView>
+
+        <TextView
+            android:id="@+id/textViewJugadas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Jugadas"
+            android:textAlignment="center"></TextView>
+
+        <TextView
+            android:id="@+id/textViewPuntos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Puntos"
+            android:textAlignment="center"></TextView>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
